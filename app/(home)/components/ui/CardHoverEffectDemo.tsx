@@ -3,8 +3,7 @@ import {
   SiNextdotjs,
   SiReact,
   SiPostgresql,
-  SiDjango,
-  SiPython,
+  SiJavascript,
   SiTailwindcss,
   SiRedux,
   SiGit,
@@ -36,14 +35,14 @@ export const projects = [
     icon: <SiFigma />,
   },
   {
-    title: "Python ",
+    title: "Javascript ",
 
-    icon: <SiPython />,
+    icon: <SiJavascript />,
   },
   {
-    title: "Django",
+    title: "RestAPI",
 
-    icon: <SiDjango />,
+    icon: <SiJavascript />,
   },
   {
     title: "Redux",

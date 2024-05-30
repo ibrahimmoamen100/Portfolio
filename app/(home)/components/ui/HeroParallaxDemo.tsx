@@ -2,30 +2,38 @@
 import React from "react";
 import { HeroParallax } from "./hero-parallax";
 import proj1 from "../../../Images/proj1.png";
+import weProj from "../../../Images/proj2.png";
+import tarteel from "@/public/tarteel.png";
+import konpol from "@/public/konpol.png";
+import elbadr from "@/public/elbadrgroup.png";
+import we from "@/public/we.png";
+
+// import collect from "../";
 
 export function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "Collection Favorite Links",
+    link: "https://ibrahimmoamen100.github.io/Collection-Icons-App/",
     thumbnail: proj1,
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail: proj1,
-  },
-  {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail: proj1,
+    title: "WE Telecom EG",
+    link: "https://we-internet-msil.vercel.app/",
+    thumbnail: we,
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "ElBadr Group Store ",
+    link: "https://ibrahimmoamen100.github.io/EL-BADR-GROUP-2020/#",
+    thumbnail: elbadr,
+  },
+
+  {
+    title: "Shopping-Cart",
+    link: "https://ibrahimmoamen100.github.io/Shopping-Cart/",
     thumbnail: proj1,
   },
   {
@@ -40,14 +48,14 @@ export const products = [
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail: proj1,
+    title: "konpol",
+    link: "https://www.konpol-sa.com/",
+    thumbnail: konpol,
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
-    thumbnail: proj1,
+    title: "Tarteel",
+    link: "https://rttel-acadimy-9k1wfwp73-ibrahimmoamen100s-projects.vercel.app/",
+    thumbnail: tarteel,
   },
   {
     title: "Tailwind Master Kit",
@@ -62,27 +70,6 @@ export const products = [
   {
     title: "Renderwork Studio",
     link: "https://renderwork.studio",
-    thumbnail: proj1,
-  },
-
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail: proj1,
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail: proj1,
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail: proj1,
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
     thumbnail: proj1,
   },
 ];
