@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsFacebook } from "react-icons/bs";
 
 function Navbar() {
   const socials = [
@@ -11,7 +11,7 @@ function Navbar() {
     },
     {
       link: "https://github.com/ibrahim-ibrahim",
-      icon: BsGithub,
+      icon: BsFacebook,
       label: "Github",
     },
     {
@@ -22,8 +22,8 @@ function Navbar() {
   ];
 
   return (
-    <nav className="py-10 flex w-full flex-row justify-between items-center ">
-      <h1 className="text-2xl font-bold underline underline-offset-8 decoration-yellow-300 -rotate-2">
+    <nav className="md:pb-60 pb-36 flex w-full max-w-7xl m-auto flex-row justify-between items-center p-2">
+      <h1 className="text-2xl font-bold text-slate-200 underline underline-offset-8 decoration-yellow-300 -rotate-2">
         IBrahim 👨🏻‍💻{" "}
       </h1>
       <div className="flex flex-row justify-center items-center gap-5">
@@ -31,7 +31,7 @@ function Navbar() {
           const Icons = social.icon;
           return (
             <Link key={index} href={social.link}>
-              <Icons className="w-5 h-5 hover:scale-125 transition-all " />
+              <Icons className="w-5 h-5 hover:scale-125 transition-all translate-x-2 text-slate-200" />
             </Link>
           );
         })}

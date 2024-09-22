@@ -1,18 +1,21 @@
 import { HoverEffect } from "./card-hover-effect";
+
 import {
   SiNextdotjs,
   SiReact,
-  SiPostgresql,
-  SiJavascript,
+  SiStripe,
+  SiAxios,
   SiTailwindcss,
   SiRedux,
   SiGit,
+  SiGoogletranslate,
   SiFigma,
+  SiFramer,
 } from "react-icons/si";
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-5xl mx-auto px-4 ">
       <HoverEffect items={projects} />
     </div>
   );
@@ -30,19 +33,15 @@ export const projects = [
     icon: <SiReact />,
   },
   {
-    title: "Figma",
+    title: "Framer Motion",
 
-    icon: <SiFigma />,
+    icon: <SiFramer />,
   },
-  {
-    title: "Javascript ",
 
-    icon: <SiJavascript />,
-  },
   {
-    title: "RestAPI",
+    title: "Axios ",
 
-    icon: <SiJavascript />,
+    icon: <SiAxios />,
   },
   {
     title: "Redux",
@@ -53,8 +52,12 @@ export const projects = [
     icon: <SiGit />,
   },
   {
-    title: "Postgress",
-    icon: <SiPostgresql />,
+    title: "Next i18n",
+    icon: <SiGoogletranslate />,
+  },
+  {
+    title: "Stripe ",
+    icon: <SiStripe />,
   },
   {
     title: "Tailwind CSS",
