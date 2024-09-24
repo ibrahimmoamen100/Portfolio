@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { BsGithub, BsLinkedin, BsFiletypePdf } from "react-icons/bs";
 
-function Navbar() {
+function Footer() {
   const socials = [
     {
       link: "https://github.com/ibrahim-ibrahim",
@@ -21,10 +21,10 @@ function Navbar() {
       label: "Rusme",
     },
   ];
-
   return (
-    <nav className="md:pb-20 pb-8 flex w-full max-w-7xl m-auto flex-row justify-between items-center p-2">
-      <h1 className="text-2xl font-bold text-slate-200 underline underline-offset-8 decoration-yellow-300 -rotate-2">
+    <div className="md:pb-20 pb-8 flex w-full max-w-7xl m-auto flex-col justify-between items-center p-2">
+      {" "}
+      <h1 className="text-2xl font-bold text-slate-200 underline underline-offset-8 decoration-yellow-300 mb-6">
         IBrahim 👨🏻‍💻{" "}
       </h1>
       <div className="flex flex-row justify-center items-center gap-5">
@@ -37,8 +37,8 @@ function Navbar() {
           );
         })}
       </div>
-    </nav>
+    </div>
   );
 }
 
-export default Navbar;
+export default Footer;
