@@ -26,8 +26,9 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="md:w-96 md:text-lg text-sm text-gray-300 translate-x-2 my-4">
-                  I Live in Cairo-Egypt, I'm a Frontend web developer passionate
-                  about building a modern web application that users love.
+                  I Live in Cairo-Egypt, I&apos;m a Frontend web developer
+                  passionate about building a modern web application that users
+                  love.
                 </p>
                 <Link
                   href={"mailto:ibrahim.moamen100@gmail.com"}
