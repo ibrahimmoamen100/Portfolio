@@ -48,9 +48,15 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card className="text-3xl flex flex-col item-center justify-center text-white border border-slate-800 gap-8">
-            {React.isValidElement(item.icon) ? item.icon : null}
-            <CardTitle className="text-xl">{item.title}</CardTitle>
+          <Card className="text-3xl flex flex-col item-center justify-center text-white border border-slate-800 gap-4">
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 0.5, ease: "backInOut" }}
+            >
+              {React.isValidElement(item.icon) ? item.icon : null}{" "}
+            </motion.div>
+            <CardTitle className="md:text-xl  text-sm">{item.title}</CardTitle>
           </Card>
         </div>
       ))}
