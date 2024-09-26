@@ -29,11 +29,11 @@ function Projects() {
     {
       title: "Khadijah Store",
       icon: [
-        <SiNextdotjs className="w-10 h-10" />,
-        <SiStripe className="w-10 h-10" />,
-        <SiFramer className="w-10 h-10" />,
-        <SiTailwindcss className="w-10 h-10" />,
-        <SiAxios className="w-10 h-10" />,
+        <SiNextdotjs key="next" className="w-10 h-10" />,
+        <SiStripe key={"stripe"} className="w-10 h-10" />,
+        <SiFramer key={"framer"} className="w-10 h-10" />,
+        <SiTailwindcss key={"tailwind"} className="w-10 h-10" />,
+        <SiAxios key="axios" className="w-10 h-10" />,
       ],
       img: store.src,
       url: "https://front-ecommerce-store.vercel.app/",
@@ -41,10 +41,10 @@ function Projects() {
     {
       title: "Tarteel Academy",
       icon: [
-        <SiNextdotjs className="w-10 h-10" />,
-        <SiReact className="w-10 h-10" />,
-        <SiTailwindcss className="w-10 h-10" />,
-        <SiFramer className="w-10 h-10" />,
+        <SiNextdotjs key="next" className="w-10 h-10" />,
+        <SiReact key="react" className="w-10 h-10" />,
+        <SiTailwindcss key={"tailwind"} className="w-10 h-10" />,
+        <SiFramer key={"framer"} className="w-10 h-10" />,
       ],
       description: `Tarteel Academy is `,
       img: tarteel.src,
@@ -53,10 +53,10 @@ function Projects() {
     {
       title: "Purestreamco",
       icon: [
-        <SiNextdotjs className="w-10 h-10" />,
-        <SiReact className="w-10 h-10" />,
-        <SiTailwindcss className="w-10 h-10" />,
-        <SiFramer className="w-10 h-10" />,
+        <SiNextdotjs key="next" className="w-10 h-10" />,
+        <SiReact key="react" className="w-10 h-10" />,
+        <SiTailwindcss key={"tailwind"} className="w-10 h-10" />,
+        <SiFramer key={"framer"} className="w-10 h-10" />,
       ],
       img: pure.src,
       url: "https://www.purestreamco.com/",
@@ -64,8 +64,8 @@ function Projects() {
     {
       title: "WE Internet Clone",
       icon: [
-        <SiReact className="w-10 h-10" />,
-        <SiRedux className="w-10 h-10" />,
+        <SiReact key="react" className="w-10 h-10" />,
+        <SiRedux key={"redux"} className="w-10 h-10" />,
       ],
       img: we.src,
       url: "https://we-internet-msil.vercel.app/",
@@ -73,8 +73,8 @@ function Projects() {
     {
       title: "Old Portfolio",
       icon: [
-        <SiJavascript className="w-10 h-10" />,
-        <SiCss3 className="w-10 h-10" />,
+        <SiJavascript key="js" className="w-10 h-10" />,
+        <SiCss3 key="css" className="w-10 h-10" />,
       ],
       img: por.src,
       url: "https://ibrahimmoamen100.github.io/My-Resume/",
@@ -82,8 +82,8 @@ function Projects() {
     {
       title: "El badr Group Store",
       icon: [
-        <SiJavascript className="w-10 h-10" />,
-        <SiCss3 className="w-10 h-10" />,
+        <SiJavascript key="js" className="w-10 h-10" />,
+        <SiCss3 key="css" className="w-10 h-10" />,
       ],
       img: el.src,
       url: "https://ibrahimmoamen100.github.io/EL-BADR-GROUP-2020/#",
