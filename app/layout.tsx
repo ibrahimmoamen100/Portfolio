@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "IBrahim Moamen",
   description:
     "Frontend Web Developer , live in egypt , cairo , React Developer NextJs Developer",
+  icons: {
+    icon: "/big.png",
+  },
 };
 
 export default function RootLayout({
