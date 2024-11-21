@@ -12,6 +12,10 @@ import {
   SiGit,
   SiGoogletranslate,
   SiFramer,
+  SiZod,
+  SiTypescript,
+  SiReactquery,
+  SiZulip,
 } from "react-icons/si";
 
 export function CardHoverEffectDemo() {
@@ -67,11 +71,23 @@ export const projects = [
     icon: <SiGoogletranslate />,
   },
   {
-    title: "Stripe ",
-    icon: <SiStripe />,
+    title: "Zod ",
+    icon: <SiZod />,
   },
   {
     title: "Tailwind ",
     icon: <SiTailwindcss />,
+  },
+  {
+    title: "TypeScript",
+    icon: <SiTypescript />,
+  },
+  {
+    title: "React Query ",
+    icon: <SiReactquery />,
+  },
+  {
+    title: "Zustand ",
+    icon: <SiZulip />,
   },
 ];
