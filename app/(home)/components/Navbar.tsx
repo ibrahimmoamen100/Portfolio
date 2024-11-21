@@ -5,7 +5,7 @@ import { BsGithub, BsLinkedin, BsFiletypePdf } from "react-icons/bs";
 function Navbar() {
   const socials = [
     {
-      link: "https://github.com/ibrahim-ibrahim",
+      link: "https://github.com/ibrahimmoamen100",
       icon: BsGithub,
       label: "Github",
     },
