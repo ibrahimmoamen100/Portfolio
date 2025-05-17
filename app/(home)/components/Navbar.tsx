@@ -16,7 +16,7 @@ function Navbar() {
       label: "Linkedin",
     },
     {
-      link: "https://drive.google.com/file/d/1lQMIHCR6kAwxLvsWvGcOQgWS5WSZMG0e/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1nf6_0Fr4_5dOiev0R0PUydm5Rla5klpm/view?usp=sharing",
       icon: BsFiletypePdf,
       label: "Rusme",
     },
