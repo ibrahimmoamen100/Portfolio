@@ -32,7 +32,10 @@ function Navbar() {
           const Icons = social.icon;
           return (
             <Link key={index} href={social.link} target="_blank">
-              <Icons className="w-5 h-5 hover:scale-125 transition-all translate-x-2 text-slate-200" />
+              <Icons
+                className="w-8 h-8 hover:scale-125 transition-all translate-x-2 text-slate-200"
+                title={social.label}
+              />
             </Link>
           );
         })}

@@ -67,7 +67,7 @@ export const projects = [
     icon: <SiGit />,
   },
   {
-    title: "Next i18n",
+    title: " i18n",
     icon: <SiGoogletranslate />,
   },
   {
