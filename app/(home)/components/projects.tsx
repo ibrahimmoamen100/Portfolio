@@ -45,18 +45,7 @@ function Projects() {
       img: store.src,
       url: "https://moamen-swart.vercel.app/",
     },
-    {
-      title: "Khadijah Store",
-      icon: [
-        <SiNextdotjs key="next" className="w-10 h-10" />,
-        <SiStripe key={"stripe"} className="w-10 h-10" />,
-        <SiFramer key={"framer"} className="w-10 h-10" />,
-        <SiTailwindcss key={"tailwind"} className="w-10 h-10" />,
-        <SiAxios key="axios" className="w-10 h-10" />,
-      ],
-      img: store.src,
-      url: "https://front-ecommerce-store.vercel.app/",
-    },
+
     {
       title: "Tarteel Academy",
       icon: [
@@ -89,15 +78,7 @@ function Projects() {
       img: we.src,
       url: "https://we-internet-msil.vercel.app/",
     },
-    {
-      title: "Old Portfolio",
-      icon: [
-        <SiJavascript key="js" className="w-10 h-10" />,
-        <SiCss3 key="css" className="w-10 h-10" />,
-      ],
-      img: por.src,
-      url: "https://ibrahimmoamen100.github.io/My-Resume/",
-    },
+
     {
       title: "El badr Group Store",
       icon: [
