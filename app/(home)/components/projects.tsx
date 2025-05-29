@@ -20,12 +20,31 @@ import {
   SiGoogletranslate,
   SiFigma,
   SiFramer,
+  SiZod,
+  SiTypescript,
+  SiReactquery,
+  SiZulip,
 } from "react-icons/si";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
 function Projects() {
   const data = [
+    {
+      title: "Moamen Store",
+      icon: [
+        <SiReact key="react" className="w-10 h-10" />,
+        <SiFramer key={"framer"} className="w-10 h-10" />,
+        <SiTailwindcss key={"tailwind"} className="w-10 h-10" />,
+        <SiAxios key="axios" className="w-10 h-10" />,
+        <SiZulip key="zustand" className="w-10 h-10" />,
+        <SiReactquery key="react query" className="w-10 h-10" />,
+        <SiGoogletranslate key="i18n" className="w-10 h-10" />,
+        <SiZod key="zod" className="w-10 h-10" />,
+      ],
+      img: store.src,
+      url: "https://moamen-swart.vercel.app/",
+    },
     {
       title: "Khadijah Store",
       icon: [
