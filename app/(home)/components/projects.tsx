@@ -11,6 +11,7 @@ import sooqna1 from "@/public/sooqna1.png";
 import sooqna from "@/public/sooqna.png";
 import spark from "@/public/spark.png";
 import spark1 from "@/public/spark1.png";
+import elhamd from "@/public/elhamd.png";
 
 
 import {
@@ -34,6 +35,18 @@ import { motion } from "framer-motion";
 
 function Projects() {
   const data = [
+    {
+      title: " Elhamd Store ",
+      icon: [
+        <SiTypescript key="ts" className="w-10 h-10" />,
+        <SiFramer key="fr" className="w-10 h-10" />,
+        <SiReact key="react" className="w-10 h-10" />,
+        <SiZod key="zod" className="w-10 h-10" />,
+        <SiTailwindcss key="tailwind" className="w-10 h-10" />,
+      ],
+      img: elhamd.src,
+      url: "https://elhamds.vercel.app/",
+    },
     {
       title: "Suoqna Store",
       icon: [
